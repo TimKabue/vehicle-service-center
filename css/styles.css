@@ -1,0 +1,285 @@
+/*+------------------------------------------------------------------+ */
+/*|                          | */
+/*+------------------------------------------------------------------+ */
+
+/*+------------------------------------------------------------------+ */
+/*| Home section                                                     | */
+/*+------------------------------------------------------------------+ */
+.hero-img{
+  background: url("../images/truck.jpg");
+  background-color: #990000;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text{
+  text-align: center;
+  width: 75%;
+  max-height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%,-50%);
+}
+
+.home-paragraph1{
+  font-size: 3.5rem;
+  font-weight: bold;
+
+}
+
+.home-paragraph2{
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 689px) {
+  .home-paragraph1{
+    font-size: 2.9rem;
+    font-weight: bold;
+
+  }
+
+  .home-paragraph2{
+    font-size: 1.4rem;
+  }
+}
+
+/*+------------------------------------------------------------------+ */
+/*| --- End of Home section ---                                      | */
+/*+------------------------------------------------------------------+ */
+
+/*+------------------------------------------------------------------+ */
+/*|   Navbar                                                         | */
+/*+------------------------------------------------------------------+ */
+
+.navbar{
+  background-color: #990000;
+}
+
+.navbar-items{
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+/*+------------------------------------------------------------------+ */
+/*|    --- End of Navbar ---                                         | */
+/*+------------------------------------------------------------------+ */
+
+/*+------------------------------------------------------------------+ */
+/*|   About us section                                               | */
+/*+------------------------------------------------------------------+ */
+
+.about-us-text{ /* Set width of the text paragraphs */
+  width: 80%;
+}
+
+/*+------------------------------------------------------------------+ */
+/*|   --- End of About us section ---                                | */
+/*+------------------------------------------------------------------+ */
+
+/*+------------------------------------------------------------------+ */
+/*|   Carousel section                                               | */
+/*+------------------------------------------------------------------+ */
+
+.carousel-container{
+  height: 75vh;
+}
+
+.img-resize{
+  width: 100%;
+  height: 75vh;
+}
+
+.card-position{
+  margin: 0 auto;
+  width: 90%;
+  height: 30rem;
+}
+
+.banner{
+  width: 65%;
+  height: 27.5rem;
+  margin: 0 auto 2rem auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.banner-text{
+  color: black;
+}
+
+.banner-paragraph1{
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.banner-paragraph2{
+  font-size: 15vw;
+  font-weight: 900;
+  line-height: 0.5;
+}
+
+.btnz{
+  margin-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background-color: #266681;
+  border-radius: 0;
+}
+
+button.btnz:hover{
+  background-color: #1F97C6;
+}
+
+.banner-paragraph3{
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  font-size: 0.75vw;
+}
+
+/*+------------------------------------------------------------------+ */
+/*|   --- End of Carousel section ---                                | */
+/*+------------------------------------------------------------------+ */
+
+
+/*+------------------------------------------------------------------+ */
+/*|   Available services section                                     | */
+/*+------------------------------------------------------------------+ */
+
+#available-services{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.col-img{
+  width: 40%;
+}
+
+.col-titles{
+  font-size: 1.5rem;
+}
+
+.available-services-paragraph1{
+  font-weight: bold;
+  font-size: 3rem;
+  padding-left: -5rem;
+  padding-right: -5rem;
+  width: 75%;
+  margin: 0 auto;
+  line-height: 1;
+}
+
+.available-services-paragraph2{
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.btn-col{
+  background-color: white;
+  width: 100%;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+button.btn-col:hover{
+  background-color: #990000;
+}
+
+.container-row{
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width:768px) {
+  .available-services-paragraph1{
+    width: 100%;
+  }
+}
+
+/*+------------------------------------------------------------------+ */
+/*|   --- End of Available services section ---                      | */
+/*+------------------------------------------------------------------+ */
+
+/*+------------------------------------------------------------------+ */
+/*|   Featurette section                                             | */
+/*+------------------------------------------------------------------+ */
+.featurette-mt{
+  margin-top: 2rem;
+}
+
+.featurette-paragraph1{
+  font-weight: bold;
+  font-size: 2.5rem; /* 3.5vh*/
+}
+
+.featurette-paragraph2{
+  font-size: 1.25rem; /*1.75vw*/
+}
+
+.featurette-btn{
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  width: 60%;
+  font-size: 1.25rem;
+}
+
+.featurette-btn:hover{
+  color: white;
+  background-color: black;
+}
+
+.featurette-img{
+  width: 100%;
+  height: 100%;
+}
+
+.map{
+  height: 100%;
+  width: 100%;
+}
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .margin-btm{
+    margin-bottom: 1rem;
+  }
+
+  .map{
+    height: 100%;
+  }
+
+  .hide{
+    display: block;
+  }
+}
+/*+------------------------------------------------------------------+ */
+/*|   --- End of Featurette section ---                              | */
+/*+------------------------------------------------------------------+ */
+
+
+/*+------------------------------------------------------------------+ */
+/*|   Attributes section                                             | */
+/*+------------------------------------------------------------------+ */
+#attributes{
+  background-color: #990000;
+  margin-top: 1rem;
+}
+
+/*+------------------------------------------------------------------+ */
+/*|   --- End of Attributes section ---                              | */
+/*+------------------------------------------------------------------+ */
